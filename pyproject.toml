@@ -1,0 +1,9 @@
+[project]
+name = "anki-obsidian-exporter"
+version = "0.1.0"
+description = "Anki add-on that exports selected deck content to text-only Markdown for Obsidian."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
